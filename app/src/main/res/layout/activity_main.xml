@@ -1,11 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/send_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Request" />
+
+    <Button
+        android:id="@+id/upload_sketch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="upload_sketch" />
+
+    <Button
+        android:id="@+id/choose_sketch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choose_sketch" />
+
+    <Button
+        android:id="@+id/get_reasult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get_reasult" />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/response_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+</LinearLayout>-->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/second_bg"
-    tools:context="com.example.myapplication.SecondPageActivity">
+    tools:context="com.example.test.MainActivity">
+
     <ImageView
         android:id="@+id/image"
         android:src="@drawable/sketch"
@@ -15,10 +62,10 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/second_decoration"
+        android:layout_height="58dp"
+        android:layout_gravity="bottom"
         android:layout_marginBottom="60dp"
-        android:layout_gravity="bottom"/>
+        android:background="@drawable/second_decoration" />
     <Button
         android:id="@+id/btn_change_color"
         android:layout_width="40dp"
@@ -91,9 +138,8 @@
         android:layout_gravity="bottom"/>
 
 
-    <com.example.myapplication.CircleView
+    <com.example.test.CircleView
         android:id="@+id/cv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
+        android:layout_height="match_parent" />
 </FrameLayout>

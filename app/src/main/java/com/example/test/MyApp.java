@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.test;
 
 // 该文件主要用于在几个java文件之间传值，充当全局变量的作用
 public class MyApp{

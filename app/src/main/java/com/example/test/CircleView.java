@@ -1,13 +1,15 @@
-package com.example.myapplication;
+package com.example.test;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
+
+import androidx.appcompat.widget.AppCompatImageView;
+
 import java.util.ArrayList;
 import java.util.List;
-import androidx.appcompat.widget.AppCompatImageView;
 
 // 显示圆点的View
 public class CircleView extends AppCompatImageView {

@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.test;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
